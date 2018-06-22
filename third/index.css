@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.row {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .row-outside {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .row1{
+    background-color: #D8D8D8;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  
+  .blueSquare {
+    width: 50px;
+    height: 50px;
+    background-color: #4A90E2;
+  }
+  
+  .row2 {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  
+  .blue {
+    background-color: #4A90E2;
+  }
+  
+  .turquoise {
+    background-color: #50E3C2;
+  }
+  
+  .lightGreen {
+    background-color: #B8E986;
+  }
+  
+  .yellow {
+    background-color: #F8E71C;
+  }
