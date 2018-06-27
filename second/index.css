@@ -1,64 +1,69 @@
-body{
-    margin:100;
-    padding:100;
+body {
+  margin: 0;
+  padding: 25px;
 }
-.containerOne{
-    border: 5px solid black;
-    padding: 60px;
-    box-sizing : border-box;
+
+
+.container-one {
+  width: 100%;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box ;
 }
-.purpleBox{
+
+.square-one {
   height: 150px;
   width: 50px;
-  background-color: purple;
+  background-color: blueviolet;
   display: inline-block;
 }
-.greenBox{
+.square-two {
   height: 200px;
   width: 400px;
   display: inline-block;
-  background-color: green;
-  margin: 0 100px;
+  background-color: forestgreen;
+  margin: 0 50px;
 }
-
-.circleOne{
+.circle-one {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color: lightblue;
+  background-color: skyblue;
   display: inline-block;
 }
-.containerTwo{
-    width: 100%;
+
+.container-two {
+  width: 100%;
   border: 5px dotted black;
   padding: 50px;
   box-sizing: border-box ;
-  margin-top: 25px; 
+  margin-top: 25px;
 }
-.outsideBox{
-    width: 100%;
+
+.box-shadow {
+  width: 100%;
   height: 200px;
-  background-color: lightyellow;
+  background-color: yellow;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.containerThree{
-    width: 50%;
+.container-three {
+  width: 50%;
   border: 1px solid #ccc;
   background-color: white;
   padding: 100px;
   box-sizing: border-box ;
-  margin: 25px auto; 
+  margin: 25px auto;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
   box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
 }
 
-.hello h1{
-    width: 100%;
-    text-align: center;
-    color: black;
-    letter-spacing: 10px;
+.container-three h1 {
+  width: 100%;
+  text-align: center;
+  color: navy;
+  letter-spacing: 10px;
 }
